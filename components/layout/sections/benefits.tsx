@@ -46,9 +46,10 @@ export const BenefitsSection = () => {
             Your Shortcut to Success
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+          Defur Tech is also establishing an outsourcing division to offer tailored services in software
+development, IT support, business process outsourcing, and creative marketing. This division aims
+to generate consistent revenue while supporting local and international clients with high-quality,
+cost-effective solutions
           </p>
         </div>
 

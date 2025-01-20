@@ -59,9 +59,9 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+      What sets us apart is our unwavering commitment to innovation and creativity. 
+      We don't just follow trends – we create them, pushing the boundaries of what's 
+      possible to achieve greatness in every solution we deliver.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

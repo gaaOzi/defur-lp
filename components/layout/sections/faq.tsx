@@ -13,34 +13,25 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
-    value: "item-1",
+    "question": "What is Digital Transformation?",
+    "answer": "We offer cutting-edge software solutions to drive digital growth and streamline operations.",
+    "value": "service-1"
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
-    value: "item-2",
+    "question": "What is Product Innovation?",
+    "answer": "We specialize in turning bold ideas into breakthrough products that revolutionize industries.",
+    "value": "service-2"
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
-    value: "item-3",
+    "question": "What is AI & Automation?",
+    "answer": "We implement advanced AI and automation technologies to optimize business efficiency and performance.",
+    "value": "service-3"
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    value: "item-4",
-  },
-  {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
-    value: "item-5",
-  },
+    "question": "What is Tech Consulting?",
+    "answer": "Our custom tech consulting services help you unlock your company’s full potential with tailored strategies.",
+    "value": "service-4"
+  }
 ];
 
 export const FAQSection = () => {
