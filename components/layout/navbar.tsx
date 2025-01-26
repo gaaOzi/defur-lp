@@ -21,7 +21,7 @@ import {
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { ToggleTheme } from "./toogle-theme";
+// import { ToggleTheme } from "./toogle-theme";
 
 interface RouteProps {
   href: string;
@@ -119,7 +119,7 @@ export const Navbar = () => {
             <SheetFooter className="flex-col sm:flex-col justify-start items-start">
               <Separator className="mb-2" />
 
-              <ToggleTheme />
+             
             </SheetFooter>
           </SheetContent>
         </Sheet>
@@ -173,7 +173,7 @@ export const Navbar = () => {
       </NavigationMenu>
 
       <div className="hidden lg:flex">
-        <ToggleTheme />
+        
 
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
