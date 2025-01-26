@@ -8,6 +8,9 @@ interface FeaturesProps {
   description: string;
 }
 
+
+
+
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
@@ -35,6 +38,7 @@ const featureList: FeaturesProps[] = [
   },
 ];
 
+
 export const FeaturesSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
@@ -48,7 +52,7 @@ export const FeaturesSection = () => {
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
       What sets us apart is our unwavering commitment to innovation and creativity. 
-      We don't just follow trends – we create them, pushing the boundaries of what's 
+      We don&apos;t just follow trends we create them, pushing the boundaries of what's 
       possible to achieve greatness in every solution we deliver.
       </h3>
 
